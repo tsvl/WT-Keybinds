@@ -281,7 +281,7 @@ controls{
     }
 
     ID_FIRE_GM_MACHINE_GUN{
-      mouseButton:i=4
+      mouseButton:i=1
     }
 
     ID_FIRE_GM_SECONDARY_GUN{
@@ -289,7 +289,7 @@ controls{
     }
 
     ID_FIRE_GM_SPECIAL_GUN{
-      mouseButton:i=3
+      keyboardKey:i=19
     }
 
     ID_FIRE_HELICOPTER{
@@ -643,8 +643,7 @@ controls{
     }
 
     ID_RANGEFINDER{
-      keyboardKey:i=15
-      mouseButton:i=2
+      mouseButton:i=3
     }
 
     ID_RELOAD_GUNS{
@@ -735,10 +734,7 @@ controls{
       keyboardKey:i=6
     }
 
-    ID_SCOUT{
-      keyboardKey:i=19
-    }
-
+    ID_SCOUT{}
     ID_SCREENSHOT{
       keyboardKey:i=88
     }
@@ -766,13 +762,12 @@ controls{
 
     ID_SELECT_GM_GUN_SECONDARY{
       keyboardKey:i=15
-      mouseButton:i=4
+      mouseButton:i=2
     }
 
-    ID_SELECT_GM_GUN_SPECIAL{}
     ID_SELECT_GM_GUN_SPECIAL{
       keyboardKey:i=15
-      mouseButton:i=3
+      keyboardKey:i=19
     }
 
     ID_SENSOR_ACM_SWITCH{
@@ -1526,7 +1521,7 @@ controls{
     }
 
     ID_ZOOM_HOLD_GM{
-      mouseButton:i=1
+      mouseButton:i=4
     }
 
     UNUSED{
@@ -2455,8 +2450,6 @@ controls{
 
     gm_zoom{
       innerDeadzone:r=0
-      nonlinearity:r=3
-      relative:b=no
       keepDisabledValue:b=yes
     }
 
