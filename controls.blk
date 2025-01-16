@@ -66,6 +66,11 @@ controls{
       keyboardKey:i=18
     }
 
+    ID_BAY_DOOR{
+      keyboardKey:i=56
+      keyboardKey:i=44
+    }
+
     ID_BOMBS{}
     ID_BOMBS_HELICOPTER{}
     ID_CAMERA_BOMBVIEW{
@@ -342,11 +347,6 @@ controls{
     }
 
     ID_FLAPS_DOWN{
-      keyboardKey:i=58
-      mouseButton:i=4
-    }
-
-    ID_FLAPS_DOWN{
       keyboardKey:i=15
       keyboardKey:i=33
     }
@@ -363,11 +363,6 @@ controls{
 
     ID_FLAPS_HELICOPTER{
       keyboardKey:i=33
-    }
-
-    ID_FLAPS_UP{
-      keyboardKey:i=58
-      mouseButton:i=3
     }
 
     ID_FLAPS_UP{
