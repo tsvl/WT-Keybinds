@@ -402,6 +402,11 @@ controls{
       keyboardKey:i=200
     }
 
+    ID_FUEL_TANKS{
+      keyboardKey:i=15
+      keyboardKey:i=57
+    }
+
     ID_GAME_PAUSE{
       keyboardKey:i=197
     }
@@ -468,6 +473,11 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_IGNITE_BOOSTERS{
+      keyboardKey:i=42
+      keyboardKey:i=58
+    }
+
     ID_INC_HMD_BRIGHTNESS{
       keyboardKey:i=15
       keyboardKey:i=3
@@ -491,6 +501,11 @@ controls{
     ID_IR_PROJECTOR{
       keyboardKey:i=58
       mouseButton:i=1
+    }
+
+    ID_JETTISON_SECONDARY{
+      keyboardKey:i=58
+      keyboardKey:i=57
     }
 
     ID_LOCK_TARGET{
