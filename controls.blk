@@ -49,7 +49,7 @@ controls{
 
     ID_AIR_REVERSE{
       keyboardKey:i=56
-      keyboardKey:i=48
+      keyboardKey:i=18
     }
 
     ID_ATGM_HELICOPTER{}
@@ -170,7 +170,7 @@ controls{
     }
 
     ID_CHUTE{
-      keyboardKey:i=29
+      keyboardKey:i=56
       keyboardKey:i=16
     }
 
