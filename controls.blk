@@ -653,7 +653,8 @@ controls{
     }
 
     ID_RANGEFINDER{
-      mouseButton:i=3
+      keyboardKey:i=56
+      keyboardKey:i=19
     }
 
     ID_RELOAD_GUNS{
@@ -745,6 +746,10 @@ controls{
     }
 
     ID_SCOUT{}
+    ID_SCOUT{
+      mouseButton:i=3
+    }
+
     ID_SCREENSHOT{
       keyboardKey:i=88
     }
@@ -2860,7 +2865,7 @@ settings{
   aimAccelerationDelaySubmarine:r=0.5
   mouseZMultAir:r=0.3
   mouseZMultHelicopter:r=1
-  mouseZMultTank:r=1
+  mouseZMultTank:r=0.4
   mouseZMultShip:r=1
   mouseZMultSubmarine:r=0.33
   gamepadMinVibration:r=0
