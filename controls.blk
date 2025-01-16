@@ -2795,37 +2795,7 @@ controls{
     mouseJoystick:b=no
   }
 
-  deviceMapping{
-    joystick{
-      connected:b=yes
-      devId:t="1234:BEAD"
-      axesOffset:i=0
-      name:t="vJoy Device"
-      buttonsOffset:i=0
-      buttonsCount:i=8
-      axesCount:i=8
-    }
-
-    joystick{
-      connected:b=no
-      devId:t="x360"
-      axesOffset:i=8
-      name:t="Controller 1"
-      buttonsOffset:i=8
-      buttonsCount:i=28
-      axesCount:i=7
-    }
-
-    joystick{
-      connected:b=no
-      devId:t="11C0:5603"
-      axesOffset:i=15
-      name:t="Defender COBRA M5 USB Joystick"
-      buttonsOffset:i=36
-      buttonsCount:i=30
-      axesCount:i=6
-    }
-  }
+  deviceMapping{}
 }
 
 settings{
