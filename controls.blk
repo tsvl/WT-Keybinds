@@ -14,12 +14,12 @@ controls{
     ID_AAM_HELICOPTER{}
     ID_ACTION_BAR_ITEM_10{
       keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=44
     }
 
     ID_ACTION_BAR_ITEM_12{
       keyboardKey:i=56
-      keyboardKey:i=46
+      keyboardKey:i=16
     }
 
     ID_ACTION_BAR_ITEM_6{
@@ -46,7 +46,11 @@ controls{
 
     ID_AGM{}
     ID_AGM_LOCK{
-      mouseButton:i=2
+      keyboardKey:i=43
+    }
+
+    ID_AGM_LOCK_HELICOPTER{
+      keyboardKey:i=43
     }
 
     ID_AIR_BRAKE{
@@ -93,10 +97,6 @@ controls{
     ID_CAMERA_DEFAULT{}
     ID_CAMERA_DRIVER{
       keyboardKey:i=156
-    }
-
-    ID_CAMERA_DRIVER{
-      keyboardKey:i=59
     }
 
     ID_CAMERA_FOLLOW_OBJECT{
@@ -200,14 +200,15 @@ controls{
 
     ID_CHANGE_SHOT_FREQ{
       keyboardKey:i=56
-      keyboardKey:i=6
+      keyboardKey:i=46
     }
 
     ID_CHANGE_SHOT_FREQ_HELICOPTER{
       keyboardKey:i=56
-      keyboardKey:i=6
+      keyboardKey:i=46
     }
 
+    ID_CHUTE{}
     ID_CHUTE{
       keyboardKey:i=56
       keyboardKey:i=45
@@ -267,11 +268,7 @@ controls{
       keyboardKey:i=12
     }
 
-    ID_DESIGNATE_TARGET{
-      keyboardKey:i=56
-      keyboardKey:i=20
-    }
-
+    ID_DESIGNATE_TARGET{}
     ID_DUMP_FPS_LOG{
       keyboardKey:i=87
     }
@@ -282,13 +279,12 @@ controls{
     }
 
     ID_ENABLE_GM_DIRECTION_DRIVING{
-      keyboardKey:i=56
-      keyboardKey:i=45
+      keyboardKey:i=29
     }
 
     ID_ENABLE_GM_HULL_AIMING{
       keyboardKey:i=56
-      keyboardKey:i=18
+      keyboardKey:i=45
     }
 
     ID_ENABLE_GUN_STABILIZER_GM{
@@ -321,7 +317,7 @@ controls{
     }
 
     ID_FIRE_ADDITIONAL_GUNS_HELICOPTER{
-      mouseButton:i=4
+      mouseButton:i=3
     }
 
     ID_FIRE_CANNONS{
@@ -329,11 +325,11 @@ controls{
     }
 
     ID_FIRE_CANNONS_HELICOPTER{
-      mouseButton:i=0
+      mouseButton:i=4
     }
 
     ID_FIRE_GM_MACHINE_GUN{
-      mouseButton:i=4
+      mouseButton:i=2
     }
 
     ID_FIRE_GM_SECONDARY_GUN{
@@ -341,7 +337,7 @@ controls{
     }
 
     ID_FIRE_GM_SPECIAL_GUN{
-      mouseButton:i=3
+      keyboardKey:i=19
     }
 
     ID_FIRE_HELICOPTER{
@@ -369,7 +365,7 @@ controls{
     }
 
     ID_FIRE_MGUNS_HELICOPTER{
-      mouseButton:i=1
+      mouseButton:i=0
     }
 
     ID_FIRE_PRIMARY{}
@@ -414,12 +410,10 @@ controls{
     }
 
     ID_FLARES{
-      keyboardKey:i=56
       mouseButton:i=2
     }
 
     ID_FLARES_HELICOPTER{
-      keyboardKey:i=56
       mouseButton:i=2
     }
 
@@ -446,14 +440,18 @@ controls{
     }
 
     ID_GM_TERRAFORM_TOGGLE{
-      keyboardKey:i=56
-      keyboardKey:i=44
+      keyboardKey:i=29
+      keyboardKey:i=33
     }
 
     ID_GUIDED_BOMBS{}
     ID_GUIDED_BOMBS_HELICOPTER{}
     ID_GUIDED_BOMBS_LOCK{
-      mouseButton:i=2
+      keyboardKey:i=43
+    }
+
+    ID_GUIDED_BOMBS_LOCK_HELICOPTER{
+      keyboardKey:i=43
     }
 
     ID_HELICOPTER_TRIM{
@@ -508,7 +506,8 @@ controls{
     }
 
     ID_IGNITE_BOOSTERS{
-      keyboardKey:i=43
+      keyboardKey:i=42
+      keyboardKey:i=58
     }
 
     ID_INC_HMD_BRIGHTNESS{
@@ -558,6 +557,10 @@ controls{
     }
 
     ID_LOCK_TARGETING_AT_POINT{}
+    ID_LOCK_TARGETING_AT_POINT{
+      keyboardKey:i=19
+    }
+
     ID_LOCK_TARGETING_AT_POINT_HELICOPTER{
       keyboardKey:i=19
     }
@@ -603,12 +606,17 @@ controls{
 
     ID_MOUSE_AIM_OVERRIDE_ROLL_HELICOPTER{
       keyboardKey:i=56
-      keyboardKey:i=46
+      keyboardKey:i=48
     }
 
     ID_MPSTATSCREEN{
       keyboardKey:i=15
       keyboardKey:i=41
+    }
+
+    ID_NEXT_TARGET{
+      keyboardKey:i=45
+      mouseButton:i=3
     }
 
     ID_OPEN_VISUAL_WEAPON_SELECTOR{
@@ -622,6 +630,11 @@ controls{
     ID_PLANE_SMOKE_SCREEN_GENERATOR{
       keyboardKey:i=56
       keyboardKey:i=34
+    }
+
+    ID_PREV_TARGET{
+      keyboardKey:i=45
+      mouseButton:i=4
     }
 
     ID_PROP_PITCH_AUTO{
@@ -660,11 +673,12 @@ controls{
 
     ID_REPAIR_BREACHES{
       keyboardKey:i=56
-      keyboardKey:i=46
+      keyboardKey:i=16
     }
 
     ID_REPAIR_TANK{
-      keyboardKey:i=33
+      keyboardKey:i=56
+      keyboardKey:i=18
     }
 
     ID_REPAIR_TRACKS{
@@ -740,7 +754,7 @@ controls{
     }
 
     ID_SCOUT{
-      keyboardKey:i=19
+      keyboardKey:i=33
     }
 
     ID_SCREENSHOT{
@@ -757,6 +771,10 @@ controls{
       keyboardKey:i=4
     }
 
+    ID_SELECT_GM_GUN_MACHINEGUN{
+      keyboardKey:i=41
+    }
+
     ID_SELECT_GM_GUN_PRIMARY{
       keyboardKey:i=56
       keyboardKey:i=2
@@ -764,12 +782,17 @@ controls{
 
     ID_SELECT_GM_GUN_RESET{
       keyboardKey:i=56
-      keyboardKey:i=41
+      keyboardKey:i=6
     }
 
     ID_SELECT_GM_GUN_SECONDARY{
       keyboardKey:i=56
       keyboardKey:i=3
+    }
+
+    ID_SELECT_GM_GUN_SECONDARY{
+      keyboardKey:i=56
+      keyboardKey:i=41
     }
 
     ID_SELECT_GM_GUN_SPECIAL{
@@ -809,11 +832,6 @@ controls{
 
     ID_SENSOR_RANGE_SWITCH{
       keyboardKey:i=58
-      keyboardKey:i=4
-    }
-
-    ID_SENSOR_RANGE_SWITCH_HELICOPTER{
-      keyboardKey:i=15
       keyboardKey:i=4
     }
 
@@ -893,7 +911,7 @@ controls{
 
     ID_SENSOR_TARGET_LOCK_TANK{
       keyboardKey:i=58
-      mouseButton:i=4
+      keyboardKey:i=43
     }
 
     ID_SENSOR_TARGET_SWITCH{
@@ -945,11 +963,12 @@ controls{
 
     ID_SHIP_ACTION_BAR_ITEM_10{
       keyboardKey:i=56
-      keyboardKey:i=16
+      keyboardKey:i=44
     }
 
     ID_SHIP_ACTION_BAR_ITEM_11{
-      keyboardKey:i=33
+      keyboardKey:i=56
+      keyboardKey:i=18
     }
 
     ID_SHIP_ACTION_BAR_ITEM_6{
@@ -966,18 +985,15 @@ controls{
     }
 
     ID_SHIP_SELECT_TARGET_AI_MGUN{
-      keyboardKey:i=15
-      keyboardKey:i=4
+      keyboardKey:i=61
     }
 
     ID_SHIP_SELECT_TARGET_AI_PRIM{
-      keyboardKey:i=15
-      keyboardKey:i=2
+      keyboardKey:i=59
     }
 
     ID_SHIP_SELECT_TARGET_AI_SEC{
-      keyboardKey:i=15
-      keyboardKey:i=3
+      keyboardKey:i=60
     }
 
     ID_SHIP_SMOKE_GRENADE{
@@ -1005,12 +1021,11 @@ controls{
 
     ID_SHIP_WEAPON_MINE{
       keyboardKey:i=56
-      keyboardKey:i=47
+      keyboardKey:i=57
     }
 
     ID_SHIP_WEAPON_MORTAR{
-      keyboardKey:i=56
-      keyboardKey:i=19
+      mouseButton:i=3
     }
 
     ID_SHIP_WEAPON_PRIMARY{
@@ -1045,7 +1060,7 @@ controls{
     }
 
     ID_SINGLE_SHOT_SHIP{
-      mouseButton:i=4
+      mouseButton:i=2
     }
 
     ID_SMOKE_SCREEN_GENERATOR{
@@ -1182,8 +1197,7 @@ controls{
     }
 
     ID_SWEEP_MODE{
-      keyboardKey:i=56
-      keyboardKey:i=46
+      keyboardKey:i=35
     }
 
     ID_SWEPT_AUTO{
@@ -1202,18 +1216,18 @@ controls{
     }
 
     ID_SWITCH_REGISTERED_BOMB_TARGETING_POINT{
-      keyboardKey:i=58
-      keyboardKey:i=19
+      keyboardKey:i=56
+      keyboardKey:i=16
     }
 
     ID_SWITCH_SHOOTING_CYCLE_COUNTER_MEASURE{
-      keyboardKey:i=15
-      keyboardKey:i=43
+      keyboardKey:i=56
+      keyboardKey:i=82
     }
 
     ID_SWITCH_SHOOTING_CYCLE_COUNTER_MEASURE_HELICOPTER{
-      keyboardKey:i=15
-      keyboardKey:i=43
+      keyboardKey:i=56
+      keyboardKey:i=82
     }
 
     ID_SWITCH_SHOOTING_CYCLE_PRIMARY{}
@@ -1236,10 +1250,6 @@ controls{
 
     ID_TARGETING_HOLD_HUMAN{
       keyboardKey:i=33
-    }
-
-    ID_TARGETING_HOLD_SHIP{
-      mouseButton:i=3
     }
 
     ID_TARGETING_HOLD_SUIT{
@@ -1310,6 +1320,7 @@ controls{
       keyboardKey:i=28
     }
 
+    ID_TOGGLE_CHAT_MODE{}
     ID_TOGGLE_CHAT_PARTY{
       keyboardKey:i=157
       keyboardKey:i=28
@@ -1350,6 +1361,11 @@ controls{
       keyboardKey:i=5
     }
 
+    ID_TOGGLE_CONSTRUCTION_MODE{
+      keyboardKey:i=56
+      keyboardKey:i=48
+    }
+
     ID_TOGGLE_EXTINGUISHER{
       keyboardKey:i=56
       keyboardKey:i=33
@@ -1383,12 +1399,12 @@ controls{
 
     ID_TOGGLE_LASER_DESIGNATOR{
       keyboardKey:i=56
-      keyboardKey:i=19
+      mouseButton:i=2
     }
 
     ID_TOGGLE_LASER_DESIGNATOR_HELICOPTER{
       keyboardKey:i=56
-      keyboardKey:i=19
+      mouseButton:i=2
     }
 
     ID_TOGGLE_MLWS_FLARES_SLAVING{
@@ -1412,8 +1428,8 @@ controls{
     }
 
     ID_TOGGLE_PROP_FEATHERING{
-      keyboardKey:i=54
-      keyboardKey:i=181
+      keyboardKey:i=56
+      keyboardKey:i=25
     }
 
     ID_TOGGLE_ROCKETS_BALLISTIC_COMPUTER{
@@ -1479,13 +1495,13 @@ controls{
 
     ID_UNLIMITED_CONTROL{}
     ID_UNLOCK_TARGETING{
-      keyboardKey:i=15
+      keyboardKey:i=56
       keyboardKey:i=19
     }
 
     ID_UNLOCK_TARGETING_AT_POINT{}
     ID_UNLOCK_TARGETING_AT_POINT_HELICOPTER{
-      keyboardKey:i=15
+      keyboardKey:i=56
       keyboardKey:i=19
     }
 
@@ -1521,13 +1537,17 @@ controls{
       keyboardKey:i=9
     }
 
-    ID_WEAPON_LEAD_TANK{}
+    ID_WEAPON_LEAD_TANK{
+      keyboardKey:i=56
+      keyboardKey:i=20
+    }
+
     ID_WEAPON_LOCK{
-      mouseButton:i=2
+      keyboardKey:i=43
     }
 
     ID_WEAPON_LOCK_HELICOPTER{
-      mouseButton:i=2
+      keyboardKey:i=43
     }
 
     ID_WEAPON_LOCK_HUMAN{
@@ -1535,11 +1555,15 @@ controls{
     }
 
     ID_WEAPON_LOCK_SHIP{
-      mouseButton:i=2
+      keyboardKey:i=43
     }
 
     ID_WEAPON_LOCK_TANK{
-      mouseButton:i=2
+      keyboardKey:i=43
+    }
+
+    ID_ZOOM_HOLD_GM{
+      mouseButton:i=4
     }
 
     ID_ZOOM_TOGGLE{
@@ -1648,46 +1672,6 @@ controls{
     gm_brake_right_rangeMax{
       keyboardKey:i=57
       keyboardKey:i=32
-    }
-
-    gm_camx_rangeMax{
-      keyboardKey:i=83
-      keyboardKey:i=77
-    }
-
-    gm_camx_rangeMin{
-      keyboardKey:i=83
-      keyboardKey:i=75
-    }
-
-    gm_camy_rangeMax{
-      keyboardKey:i=83
-      keyboardKey:i=72
-    }
-
-    gm_camy_rangeMin{
-      keyboardKey:i=83
-      keyboardKey:i=80
-    }
-
-    gm_mouse_aim_x_rangeMax{
-      keyboardKey:i=56
-      keyboardKey:i=205
-    }
-
-    gm_mouse_aim_x_rangeMin{
-      keyboardKey:i=56
-      keyboardKey:i=203
-    }
-
-    gm_mouse_aim_y_rangeMax{
-      keyboardKey:i=56
-      keyboardKey:i=200
-    }
-
-    gm_mouse_aim_y_rangeMin{
-      keyboardKey:i=56
-      keyboardKey:i=208
     }
 
     gm_sensor_cue_x_rangeMax{
@@ -2314,14 +2298,27 @@ controls{
       mouseButton:i=4
     }
 
+    ship_sight_distance_rangeMax{
+      keyboardKey:i=201
+    }
+
     ship_sight_distance_rangeMin{
       keyboardKey:i=56
       mouseButton:i=3
     }
 
+    ship_sight_distance_rangeMin{
+      keyboardKey:i=209
+    }
+
     ship_sight_distance_rangeSet{
       keyboardKey:i=56
       mouseButton:i=2
+    }
+
+    ship_sight_distance_rangeSet{
+      keyboardKey:i=201
+      keyboardKey:i=209
     }
 
     ship_star_engine_rangeMax{
@@ -2395,12 +2392,12 @@ controls{
 
     sweep_rangeMax{
       keyboardKey:i=56
-      keyboardKey:i=45
+      keyboardKey:i=18
     }
 
     sweep_rangeMin{
       keyboardKey:i=56
-      keyboardKey:i=44
+      keyboardKey:i=16
     }
 
     swept_rangeMax{
@@ -2660,7 +2657,7 @@ controls{
 
     helicopter_collective{
       innerDeadzone:r=0
-      relSens:r=0.36
+      relSens:r=0.81
       keepDisabledValue:b=yes
     }
 
@@ -2935,8 +2932,7 @@ controls{
     USEROPT_INVERTY_SPECTATOR:b=no
     USEROPT_INVERTY_SUBMARINE:b=no
     USEROPT_JOYFX:b=no
-    USEROPT_MOUSE_SENSE:i=65
-    USEROPT_MOUSE_SMOOTH:b=yes
+    USEROPT_MOUSE_SENSE:i=70
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=15
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=no
@@ -2963,13 +2959,13 @@ settings{
   freeCameraInertia:r=0
   replayCameraWiggle:r=0
   zoomSens:r=0.2
-  mouseSens:r=1.3
+  mouseSens:r=1.4
   mouseAimSens:r=0.5
   gunnerViewSens:r=0.5
   gunnerViewZoomSens:r=0
   atgmAimSensHelicopter:r=1
   atgmAimZoomSensHelicopter:r=1
-  mouseSmooth:b=yes
+  mouseSmooth:b=no
   mouseJoystickDeadZone:r=0.01
   helicopterMouseJoystickDeadZone:r=0.01
   mouseJoystickScreenSize:r=1
@@ -3000,7 +2996,7 @@ settings{
   aimAccelerationDelaySubmarine:r=0.5
   mouseZMultAir:r=0.5
   mouseZMultHelicopter:r=0.5
-  mouseZMultTank:r=0.4
+  mouseZMultTank:r=0.8
   mouseZMultShip:r=1
   mouseZMultSubmarine:r=0.33
   gamepadMinVibration:r=0
